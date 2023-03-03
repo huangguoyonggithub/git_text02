@@ -1,0 +1,11 @@
+#no.afiles
+*.a
+#butdotracklib.a,eventhoughyou'reignoring.afilesabove
+!lib.a
+#onlyignoretheTODOfileinthecurrentdirectory,notsubdir/TODO /TODO
+#ignoreallfilesinthebuild/directory
+build/
+#ignoredoc/notes.txt,butnotdoc/server/arch.txt
+doc/*.txt
+#ignoreall.pdffilesinthedoc/directory
+doc/**/*.pdf
